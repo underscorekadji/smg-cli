@@ -2,10 +2,9 @@
 # yarn lockfile v1
 
 
-"@smg/client@^1.0.0":
+"@smg/client@git+https://github.com/underscorekadji/smg-client.git#v1.0.0":
   version "1.0.0"
-  resolved "https://npm-proxy.fury.io/underscorekadji/~/d/%40smg%2Fclient/%40smg%2Fclient-1.0.0#3910a8983c59a91eb413c45534fafd666a66ccde"
-  integrity sha1-ORComDxZqR60E8RVNPr9ZmpmzN4=
+  resolved "git+https://github.com/underscorekadji/smg-client.git#84ef24730d5bc6744f77e4c6af0d0d26e0304723"
   dependencies:
     axios "^0.18.0"
 
