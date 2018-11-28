@@ -1,0 +1,30 @@
+{
+  "name": "@smg/cli",
+  "version": "1.0.0",
+  "description": "A CLI app that gives access to data into SMG",
+  "main": "index.js",
+  "author": "Alexander Belenkov <alexander.belenkov@itechart-group.com>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "smg",
+    "cli"
+  ],
+  "bin": {
+    "smg-cli": "bin/cli"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "@smg/client": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.0",
+    "lodash": "^4.17.11",
+    "log-symbols": "^2.2.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0",
+    "path": "^0.12.7"
+  }
+}
