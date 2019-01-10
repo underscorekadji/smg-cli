@@ -19,6 +19,10 @@ module.exports = () => {
       require("./cmds/employees")(args);
       break;
 
+    case "slack":
+      require("./cmds/slack")(args);
+      break;
+
     case "version":
       require("./cmds/version")(args);
       break;

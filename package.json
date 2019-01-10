@@ -18,7 +18,8 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "@smg/client": "git+https://github.com/underscorekadji/smg-client.git#v1.0.0",
+    "@smg/client": "git+https://github.com/underscorekadji/smg-client.git",
+    "csvtojson": "^2.0.8",
     "fs-extra": "^7.0.1",
     "inquirer": "^6.2.0",
     "lodash": "^4.17.11",
