@@ -23,6 +23,10 @@ module.exports = () => {
       require("./cmds/slack")(args);
       break;
 
+    case "emails":
+      require("./cmds/emails")(args);
+      break;
+
     case "version":
       require("./cmds/version")(args);
       break;
