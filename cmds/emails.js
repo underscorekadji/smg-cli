@@ -3,7 +3,7 @@ const path = require("path");
 const logSymbols = require("log-symbols");
 const outputFile = require("fs-extra").outputFile;
 const inquirer = require("../lib/credentials");
-const getEmployeesByLocation = require("../lib/smg");
+const { getEmployeesByLocation } = require("../lib/smg");
 
 module.exports = async args => {
   const credentials = await inquirer.askCredentials();
