@@ -24,7 +24,7 @@
     "inquirer": "^6.2.0",
     "lodash": "^4.17.11",
     "log-symbols": "^2.2.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "ora": "^3.0.0",
     "path": "^0.12.7"
   }
