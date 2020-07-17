@@ -22,7 +22,7 @@
     "csvtojson": "^2.0.8",
     "fs-extra": "^7.0.1",
     "inquirer": "^6.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "log-symbols": "^2.2.0",
     "minimist": "^1.2.0",
     "ora": "^3.0.0",
